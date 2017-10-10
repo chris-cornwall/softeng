@@ -5,6 +5,7 @@
  */
 package com.mycompany.softeng_assign1;
 
+import java.util.Date;
 import org.joda.time.DateTime;
 
 /**
@@ -17,6 +18,7 @@ public class Programme {
     String [] modules;
     DateTime startDate;
     DateTime endDate;
+    
     
     public Programme(String name, String[] modules, DateTime startDate, DateTime endDate){
         

@@ -31,7 +31,13 @@
             <type>jar</type>
         </dependency>
     </dependencies>
-    <properties>
+    <distributionManagement>
+        <repository>
+            <id>dropbox-mvn-repo</id>
+            <url>file:///C:/Dropbox/Public/REPOSITORY</url>
+        </repository>
+    </distributionManagement>
+        <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
