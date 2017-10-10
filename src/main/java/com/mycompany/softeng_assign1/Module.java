@@ -22,6 +22,30 @@ public class Module {
         this.students = students;
         
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String[] getStudents() {
+        return students;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setStudents(String[] students) {
+        this.students = students;
+    }
     
     
 }

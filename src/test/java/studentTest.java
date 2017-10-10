@@ -11,6 +11,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import com.mycompany.softeng_assign1.Student;
+//import java.text.SimpleDateFormat;
+import java.util.Date;
 import org.joda.time.DateTime;
 
 /**
@@ -19,6 +21,13 @@ import org.joda.time.DateTime;
  */
 public class studentTest {
     Student student;
+   // String date = "05/04/2016";
+    
+    //SimpleDateFormat format = new SimpleDateFormat ("dd/MM/yyy");
+    //Date d1 = null;
+    //d1 = format.parse(dateStart);
+   // DateTime date = new DateTime();
+    //DateTime date = "2017/12/17";
     DateTime date = new DateTime();
     String [] modules = {"maths", "science", "english"};
 
@@ -36,7 +45,7 @@ public class studentTest {
     @Before
     public void setUp() {
     
-     this.student = new Student("Amy", 18, date , 1231456, modules);
+     this.student = new Student("Amy", 18, date, 1231456, modules);
     }
     
     @Test
