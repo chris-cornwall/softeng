@@ -5,6 +5,8 @@
  */
 package com.mycompany.softeng_assign1;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author cristoir95
@@ -13,9 +15,9 @@ public class Module {
     
     private String name;
     private String id;
-    private String [] students;
+    private ArrayList <Student> students;
     
-    public Module(String name, String id, String [] students){
+    public Module(String name, String id, ArrayList <Student> students){
         
         this.name = name;
         this.id = id;
@@ -31,7 +33,7 @@ public class Module {
         return id;
     }
 
-    public String[] getStudents() {
+    public ArrayList <Student> getStudents() {
         return students;
     }
 
@@ -43,7 +45,7 @@ public class Module {
         this.id = id;
     }
 
-    public void setStudents(String[] students) {
+    public void setStudents(ArrayList <Student> students) {
         this.students = students;
     }
     
