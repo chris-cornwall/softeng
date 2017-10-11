@@ -23,13 +23,6 @@
             <version>1.3</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.mycompany</groupId>
-            <artifactId>softeng_assign1</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>test</scope>
-            <type>jar</type>
-        </dependency>
     </dependencies>
         <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
