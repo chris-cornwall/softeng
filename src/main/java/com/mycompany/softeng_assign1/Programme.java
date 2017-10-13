@@ -5,7 +5,7 @@
  */
 package com.mycompany.softeng_assign1;
 
-import java.util.Date;
+import java.util.ArrayList;
 import org.joda.time.DateTime;
 
 /**
@@ -15,12 +15,12 @@ import org.joda.time.DateTime;
 public class Programme {
     
     String name;
-    String [] modules;
+    ArrayList <Module> modules;
     DateTime startDate;
     DateTime endDate;
     
     
-    public Programme(String name, String[] modules, DateTime startDate, DateTime endDate){
+    public Programme(String name, ArrayList <Module> modules, DateTime startDate, DateTime endDate){
         
         this.name = name;
         this.modules = modules;
@@ -33,7 +33,7 @@ public class Programme {
         return name;
     }
 
-    public String[] getModules() {
+    public ArrayList <Module> getModules() {
         return modules;
     }
 
@@ -49,7 +49,7 @@ public class Programme {
         this.name = name;
     }
 
-    public void setModules(String[] modules) {
+    public void setModules(ArrayList <Module> modules) {
         this.modules = modules;
     }
 
